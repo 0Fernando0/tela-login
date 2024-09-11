@@ -31,12 +31,15 @@
     #imagem{
         background-size: cover;
 
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     #formulario{
-        float: right;
+        float: left;
         width: 50%;
+    }
+    p{
+        font-size: 1.2em;
     }
 }

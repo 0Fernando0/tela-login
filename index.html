@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="devices.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Tela De Login</title>
 </head>
 <body>
@@ -15,7 +16,20 @@
                 <h1>Login</h1>
                 <p>Seja Bem-Vindo(a) Novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form autocomplete="off" action="login.php" method="post">
-
+                    <div class="campo">
+                        <span class="material-symbols-outlined" for="login">person</span>
+                        <input required maxlength="30" type="email" name="login" id="log">
+                        <label for="log">Login</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">key</span>
+                        <input required minlength="8" type="password" id="senha">
+                        <label for="senha">Senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="">
+                        Esqueci a Senha <span class="material-symbols-outlined">mail</span>
+                    </a>
                 </form>
             </div>
         </section>
