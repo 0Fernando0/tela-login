@@ -1,6 +1,5 @@
-/* mobile first */
-
 @charset "UTF-8";
+/* mobile first */
 
 :root{
     --cor-1: #49a09d;
@@ -39,6 +38,9 @@ section{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 div{
